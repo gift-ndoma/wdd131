@@ -1,0 +1,126 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header h1 {
+    background-color: #293241;
+    color: #fff1f1;
+    text-align: center;
+    font-family: 'Comic Neue', 'sans-serif';
+   padding: 1.2rem
+}
+
+header span {
+    color: #ecc6cc
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #D4AFB9;
+}
+
+nav a {
+    text-decoration: none;
+    padding: 0.7rem;
+    color: #000000;
+    display: block;
+    font-family: 'Poppins', 'Montserrat';
+}
+
+nav a:hover {
+    background-color: #ffffff;
+    border-radius: 5px;
+    color: #ff002b;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: minmax(300px, 3fr) 1fr;
+    width: 100%;
+}
+
+.card {
+    margin: 1.2rem;
+    border: 1px solid #000;
+    border-radius: 10px;
+}
+
+.card h2 {
+    background-color: #293241;
+    color: whitesmoke;
+    text-align: center;
+    padding: .5rem;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.about img {
+    border: 3px solid transparent;
+    background: linear-gradient(to right, #293241, #D4AFB9);
+    border-image-slice: 1;
+    float: right;
+    margin: 5px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+}
+
+.about {
+    padding: 20px;
+    font-family: 'Poppins', 'Montserrat';
+}
+
+.country h3 {
+    border-bottom: 1.2px solid #000;
+    margin: 30px;
+    text-align: center;
+    font-size: 1.4rem;
+    padding: 5px;
+    font-family: 'Comic Neue', 'sans-serif';
+}
+
+.country-grid {
+    display: flex;
+    margin: 1rem;
+}
+
+
+.country img {
+    padding: 5px 10px;
+}
+
+.country p {
+    font-family: 'Poppins', 'Montserrat';
+} 
+
+figcaption {
+    text-align: center;
+    font-family: 'Comic Neue', 'sans-serif';
+    font-style: italic;
+}
+
+.card ul {
+    margin: 70px 0 0 60px;
+}
+
+li {
+    padding: 10px;
+    font-family: 'Poppins', 'Montserrat';
+}
+
+footer {
+    background-color: #293241;
+    color: whitesmoke;
+    text-align: center;
+    padding: 20px;
+}
+footer p {
+    padding: 5px;
+ }
+
+#lastModified {
+    color: #ffff00;
+}
