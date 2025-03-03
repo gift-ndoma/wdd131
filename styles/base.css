@@ -70,6 +70,8 @@ main {
     margin: 5px;
     margin-bottom: 20px;
     border-radius: 20px;
+    width: 200px;
+    height: auto;
 }
 
 .about {
@@ -94,6 +96,8 @@ main {
 
 .country img {
     padding: 5px 10px;
+    width: 200px;
+    height: auto;
 }
 
 .country p {
