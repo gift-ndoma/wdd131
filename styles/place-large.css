@@ -48,13 +48,19 @@
     }
 
     .weather-flex {
-        display: flex;
-        gap: 5px;
         padding-bottom: 5px;
         background-color: #132513;
         color: white;
         border-radius: 5px;
         padding-left: 10px;
+    }
+
+    .weather-flex img {
+        display: none;
+    }
+
+    .weather-flex h2::after {
+        content: '⛅'
     }
     
     footer {

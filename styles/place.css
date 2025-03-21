@@ -4,19 +4,25 @@
     box-sizing: border-box;
 }
 
+:root {
+    --heading-font: 'Quicksand', 'sans-serif';
+    --text-font: 'Nunito', 'serif';
+    --primary-color: #132513;
+}
+
 header h1 {
-    background-color: #132513;
+    background-color: var(--primary-color);
     color: white;
     text-align: center;
     padding: 20px;
-    font-family: Nunito, 'serif';
+    font-family: var(--text-font);
     margin-bottom: 15px;
 }
 
 .hero img {
     margin: 0 auto;
     width: 100%;
-    border-bottom: 8px solid #132a13;
+    border-bottom: 8px solid var(--heading-font);
 }
 
 .data {
@@ -26,13 +32,13 @@ header h1 {
 
 .data h2 {
     padding: 10px 0 20px 0;
-    font-family: Nunito, 'serif';
+    font-family: var(--text-font);
     font-weight: 700;
     font-size: 2rem;
 }
 
 .data p {
-    font-family: 'Quicksand', 'sans-serif';
+    font-family: var(--heading-font);
     padding: 5px;
     width: 80%;
     margin: 0 auto;
@@ -41,7 +47,7 @@ header h1 {
 .weather h2 {
     text-align: center;
     padding-top: 20px;
-    font-family: Nunito, 'serif';
+    font-family: var(--text-font);
     font-weight: 700;
     font-size: 2rem;
 }
@@ -57,16 +63,16 @@ header h1 {
 }
 
 .weather p {
-    font-family: 'Quicksand', 'sans-serif';
+    font-family: var(--heading-font);
     padding: 5px;
     width: 80%;
     margin: 0 auto;
 }
 
 footer {
-    background-color: #132a13;
+    background-color: var(--primary-color);
     color: white;
     text-align: center;
     padding: 20px;
-    font-family: 'Nunito', 'Sans-serif';
+    font-family: var(--text-font);
 }
