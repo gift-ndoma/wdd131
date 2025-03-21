@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Country | Webpage | WDD 131</title>
+    <link rel="stylesheet" href="styles/place.css">
+    <link rel="stylesheet" href="styles/place-large.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
+    <script src="scripts/getdates.js" defer></script>
+    <script src="scripts/place.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>Nigeria</h1>
+    </header>
+    <main>
+        <div class="hero">
+            <picture>
+                <source media="(min-width: 700px)" srcset="images/hero_large.webp">
+                <source media="(max-width: 699px)" srcset="images/hero_small.webp">
+                <img src="images/hero_small.webp" alt="Nigeria country">
+            </picture>
+        </div>
+        <div class="data container">
+            <h2>Data</h2>
+            <p class="data-item"><strong>Area:</strong> 923,769 sq km</p>
+            <p class="data-item"><strong>Population:</strong> ~223,804,632 (as of 2023)</p>
+            <p class="data-item"><strong>Capital:</strong> Abuja</p>
+            <p class="data-item"><strong>Languages:</strong> English (official), Hausa, Yoruba, Igbo, and many others</p>
+            <p class="data-item"><strong>Currency:</strong> Nigerian Naira (NGN)</p>
+            <p class="data-item"><strong>Time Zone:</strong> UTC+1</p>
+            <p class="data-item"><strong>Calling Code:</strong> +234</p>
+            <p class="data-item"><strong>Internet TLD:</strong> .ng</p>
+        </div>
+        <div class="weather">
+            <div class="weather-flex">
+                <h2>Weather</h2>
+                <img src="images/weather-icon.svg" alt="weather icon">
+            </div>
+            <p><strong>Temperature:</strong> 37°C</p>
+            <p><strong>Conditions:</strong> Partly Cloudy</p>
+            <p><strong>Wind:</strong> 12 km/h</p>
+            <p><strong>Wind Chill:</strong> <span id="windchill"></span></p>
+        </div>
+    </main>
+    <footer>
+        <p>&copy; <span id="currentYear"></span> 🌼 Gift Ndoma 🌼 Nigeria</p>
+        <p id="lastModified"></p>
+    </footer>
+</body>
+</html>
