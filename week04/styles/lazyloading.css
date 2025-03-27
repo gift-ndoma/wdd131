@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    text-align: center;
+    padding: 10px;
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+    width: 300px;
+    padding: 10px;
+    animation: fade 15s;
+}
+
+footer {
+    background-color: #293241;
+    color: whitesmoke;
+    text-align: center;
+    padding: 20px;
+}
+footer p {
+    padding: 5px;
+ }
+
+#lastModified {
+    color: #ffff00;
+}
+
+@keyframes fade {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}

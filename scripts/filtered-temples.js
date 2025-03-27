@@ -142,24 +142,6 @@ function displayTemples(temples) {
 
 displayTemples(temples);
 
-/* function filterTemples(criteria) {
-    let filteredTemples = [];
-
-    if (criteria === 'old') {
-        filteredTemples = temples.filter(t => parseInt(t.dedicated) < 1900);
-    } else if (criteria === 'new') {
-        filteredTemples = temples.filter(t => parseInt(t.dedicated) > 2000)
-    } else if (criteria === 'large') {
-        filteredTemples = temples.filter(t => t.area > 90000)
-    } else if (criteria === "small") {
-        filteredTemples = temples.filter(t => t.area < 10000);
-    } else {
-        filteredTemples = temples;
-    }
-
-    displayTemples(filteredTemples);
-} */
-
 const oldBtn = document.getElementById("old-btn");
 const newBtn = document.getElementById("new-btn");
 const largeBtn = document.getElementById("large-btn");

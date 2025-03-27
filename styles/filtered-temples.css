@@ -4,14 +4,20 @@
     box-sizing: border-box;
 }
 
+:root {
+    --main-font: 'Quicksand', 'Nunito', 'sans-serif';
+    --primary-font: 'Josefin Sans', serif;
+    --main-background: #4a5759;
+}
+
 header {
-    background-color: #4a5759;
+    background-color: var(--main-background);
     padding: 20px;
 }
 
 header h1 {
     color: #fff;
-    font-family: 'Quicksand', 'Nunito', 'sans-serif';
+    font-family: var(--main-font);
     font-size: 1.8rem;
 }
 
@@ -20,14 +26,15 @@ main {
     margin: 0 auto;
 }
 
-main h2 {
+main > h2 {
     text-align: center;
     padding: 20px;
-    font-family: 'Quicksand', 'Nunito', 'sans-serif';
+    font-size: 2.5rem;
+    font-family: var(--main-font);
 }
 
 
-.image-grid {
+#temple-container {
     display: grid;
     grid-template-columns: 1fr;
     justify-content: center;
@@ -37,11 +44,18 @@ main h2 {
     margin-bottom: 50px;
 }
 
-figure img {
+.temple-card img {
     width: 400px;
     height: auto;
     margin: 0 auto;
     padding: 10px;
+}
+
+.temple-card {
+    background-color: #cdb4db;
+    max-width: 500px;
+    margin: 0 auto;
+    border-radius: 10px;
 }
 
 figure {
@@ -49,8 +63,13 @@ figure {
     text-align: center;
 }
 
-figcaption {
-    font-family: 'Josefin Sans';
+.temple-card p {
+    font-family: var(--primary-font);
+    padding: 8px;
+}
+.temple-card h2 {
+    font-family: var(--primary-font);
+    padding-top: 15px;
 }
 
 
@@ -70,7 +89,7 @@ ul {
 	flex-direction: column;
 	justify-content: space-around;
 	list-style: none;
-	background-color: #4a5759;
+	background-color: var(--main-background);
 	color: #fff;
 }
 
@@ -89,7 +108,7 @@ nav a {
 	text-align: center;
 	text-decoration: none;
 	color: #fff;
-    font-family: 'Josefin Sans';
+    font-family: var(--primary-font);
     font-weight: 600;
     transition: 0.4s;
     font-size: 1.2rem;
@@ -116,11 +135,11 @@ nav a:hover {
 }
 
 footer {
-    background-color: #4a5759;
+    background-color: var(--main-background);
     color: #fff;
     text-align: center;
     padding: 20px;
-    font-family: 'Quicksand', 'Nunito', 'Sans Serif';
+    font-family: var(--main-font);
 }
 
 footer p {

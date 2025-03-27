@@ -18,23 +18,15 @@
         display: block;
     }
 
-    .image-grid {
+    #temple-container {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
         max-width: 100%;
     }
 
-    figure img {
+    .temple-card img {
         width: 100%;
         height: 200px;
-    }
-
-    .grid-img {
-        padding-right: 10px;
-    }
-
-    .grid-img1 {
-        padding-left: 10px;
     }
 
     #menu-button {
