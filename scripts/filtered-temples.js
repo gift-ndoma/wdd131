@@ -78,13 +78,6 @@ const temples = [
         imageUrl: "https://churchofjesuschristtemples.org/assets/img/temples/_temp/029-Manila-Philippines-Temple.jpg"
       },
       {
-        templeName: "Johannesburg South Africa",
-        location: "Johannesburg, South Africa",
-        dedicated: "1985, August, 24",
-        area: 19000,
-        imageUrl: "https://churchofjesuschristtemples.org/assets/img/temples/johannesburg-south-africa-temple/johannesburg-south-africa-temple-22475-main.jpg"
-      },
-      {
         templeName: "São Paulo Brazil",
         location: "São Paulo, Brazil",
         dedicated: "1978, October, 30",
@@ -97,13 +90,6 @@ const temples = [
         dedicated: "1980, October, 27",
         area: 52000,
         imageUrl: "https://churchofjesuschristtemples.org/assets/img/temples/tokyo-japan-temple/tokyo-japan-temple-26340-main.jpg"
-      },
-      {
-        templeName: "Accra Ghana",
-        location: "Accra, Ghana",
-        dedicated: "2004, January, 11",
-        area: 17300,
-        imageUrl: "https://churchofjesuschristtemples.org/assets/img/temples/accra-ghana-temple/accra-ghana-temple-13760-main.jpg"
       },
       {
         templeName: "Paris France",
