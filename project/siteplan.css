@@ -81,4 +81,8 @@ footer p {
     .wireframe img {
         width: 100%;
     }
+
+    header h1 {
+        font-size: 1.6rem;
+    }
 }
