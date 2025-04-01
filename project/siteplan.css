@@ -72,3 +72,13 @@ footer {
 footer p {
     padding: 5px;
 }
+
+@media (max-width: 800px) {
+    main {
+        width: 100%;
+    }
+
+    .wireframe img {
+        width: 100%;
+    }
+}
