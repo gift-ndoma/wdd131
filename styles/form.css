@@ -26,7 +26,7 @@ main {
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
 }
 
-select, option, input[type="date"], textarea, input[type="name"] {
+select, option, input[type="date"], textarea, input[type="text"] {
     padding: 10px;
     width: 97%;
     margin-left: .99%;

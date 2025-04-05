@@ -15,7 +15,7 @@
         <form method="get" action="review.html">
             <div class="name">Product Name</div>
             <select id="pname" name="product-name" required>
-                <option disabled selected>Select a Product..</option>
+                <option disabled selected value="">Select a Product..</option>
             </select>
             <div class="rating">Overall Rating</div>
             <div class="star-rating">
@@ -46,7 +46,7 @@
             <div class="review">Written Review <span class="optional">(Optional)</span></div>
             <textarea id="review" name="review"></textarea>
             <div class="name">Your Name <span class="optional">(Optional)</span></div>
-            <input type="name" id="name" name="full-name">
+            <input type="text" id="name" name="full-name">
             <input type="submit" value="Post Review">
         </form>
     </main>
