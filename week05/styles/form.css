@@ -5,7 +5,7 @@
 }
 
 header h1 {
-    background-color: rgb(40, 2, 40);
+    background-color: rgb(26, 0, 26);
     color: #fff;
     padding: 20px;
     text-align: center;
@@ -13,7 +13,7 @@ header h1 {
 }
 
 main {
-    background-color: rgb(127, 83, 123);
+    background-color: rgb(70, 47, 68);
     color: #fff;
     width: 700px;
     margin: 10px auto;
@@ -136,7 +136,7 @@ input[type="submit"]:hover {
 }  
 
 footer {
-    background-color: rgb(40, 2, 40);
+    background-color: rgb(26, 0, 26);
     color: #fff;
     padding: 20px;
     text-align: center;
