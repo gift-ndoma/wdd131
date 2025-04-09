@@ -1,0 +1,40 @@
+@media (min-width: 800px) {
+    header h1 {
+        font-size: 2rem;
+    }
+
+    nav {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        padding: 5px;
+    }
+
+    nav a {
+        display: block;
+        padding: 10px;
+        font-size: 1.2rem;
+    }
+
+    .welcome-msg {
+        bottom: 30rem;
+        padding: 60px;
+    }
+
+    .welcome-msg h2 {
+        font-size: 2rem;
+    }
+
+    .welcome-msg p {
+        font-size: 1.2rem;
+    }
+
+    .welcome-msg button {
+        padding: 20px;
+        font-size: 1rem;
+    }
+
+    #announcements h2 {
+        margin-top: -10rem;
+    }
+}

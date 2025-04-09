@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BYU Remote Learning Hub | WDD 131 Final Project</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/project.css">
+    <link rel="stylesheet" href="styles/project-large.css">
+    <script src="scripts/project.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>BYU Remote Learning Hub</h1>
+        <nav>
+            <a href="project.html">Home</a>
+            <a href="study-tips.html" target="_blank">Study Tips</a>
+            <a href="assignment.html" target="_blank">Assignment</a>
+            <a href="resources.html" target="_blank">Resources</a>
+        </nav>
+    </header>
+    <main>
+        <section class="welcome">
+            <picture>
+                <source media="(min-width: 700px)" srcset="images/students-large.jpg">
+                <source media="(max-width: 699px)" srcset="images/hero-image.jpg">
+                <img src="images/hero_img.jpg" alt="Student studying">
+            </picture>
+            <div class="welcome-msg">
+                <h2>Welcome, BYU Students!</h2>
+                <p>"Education is not just about learning facts, but training the mind to think." – Albert Einstein</p>
+                <button id="toggle-mode">Toggle Dark Mode</button>
+            </div>
+        </section>
+
+        <section id="announcements">
+            <h2>📢 Latest Announcements</h2>
+            <ul>
+                <li>🔹 Midterms start next week! Check out our <a href="study-tips.html">Study Tips</a>.</li>
+                <li>🔹 Free online tutoring sessions every Friday.</li>
+                <li>🔹 Join our BYU online study group – <a href="https://discord.com">Join Now</a></li>
+            </ul>
+        </section>
+
+        <section id="testimonials">
+            <h2>💬 What BYU Students Say</h2>
+            <blockquote>"This site has helped me stay on track with my assignments!" – Emma J.</blockquote>
+            <blockquote>"The study tips improved my grades dramatically!" – Daniel M.</blockquote>
+            <blockquote>"I love the dark mode feature and task tracker!" – Sophia K.</blockquote>
+        </section>
+
+        <section id="quiz">
+            <h2>🎯 Quick Study Quiz</h2>
+            <p>What is the best way to retain information?</p>
+            <div class="options">
+                <button onclick="checkAnswer('A')">A. Re-reading notes</button>
+                <button onclick="checkAnswer('B')">B. Active recall</button>
+                <button onclick="checkAnswer('C')">C. Cramming the night before</button>
+            </div>
+            <p id="quiz-result"></p>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2025 BYU Remote Learning Hub</p>
+        <p>2025 Gift Ndoma | WDD 131 Final Project</p>
+    </footer>
+</body>
+</html>

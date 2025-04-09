@@ -1,0 +1,49 @@
+:root {
+    --main-font: 'Lato', Nunito, 'Josefin Sans';
+    --primary-font: Nunito, 'Josefin Sans', Lato;
+    --secondary-font: 'Josefin Sans', Nunito, Lato;
+    --primary-color: #002E5D;
+    --accent-color: #0073CF;
+}
+
+#study-music {
+    font-family: var(--secondary-font);
+    margin: 20px;
+}
+
+#study-music h2 {
+    color: #003366;
+    font-size: 2rem;
+    font-family: var(--primary-font);
+}
+
+#study-music h3 {
+    color: #0073CF;
+    font-size: 1.5rem;
+    margin-top: 15px;
+}
+
+#study-music ul {
+    list-style-type: square;
+    margin-left: 20px;
+}
+
+#study-music li {
+    margin: 5px 0;
+}
+
+button {
+    padding: 10px;
+    font-family: var(--main-font);
+    background-color: #002E5D;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: #fff;
+    color: #002E5D;
+    border: 1px solid #002E5D;
+}
