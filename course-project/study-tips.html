@@ -15,10 +15,9 @@
     <header>
         <h1>BYU Remote Learning Hub</h1>
         <nav>
-            <a href="project.html" target="_blank">Home</a>
-            <a href="#">Study Tips</a>
-            <a href="assignment.html" target="_blank">Assignment</a>
-            <a href="resources.html" target="_blank">Resources</a>
+            <a href="index.html">Home</a>
+            <a href="study-tips.html">Study Tips</a>
+            <a href="resources.html">Resources</a>
         </nav>
     </header>
     <main>
@@ -34,21 +33,24 @@
         </div>
         <section id="featured-tips">
             <h2>🌟 Featured Study Tips</h2>
-            <div class="tips-container">
-                <div class="tip-card">
-                    <h3>Pomodoro Technique ⏳</h3>
-                    <p>Study for 25 mins, take a 5-min break. Boost your productivity!</p>
-                </div>
-                <div class="tip-card">
-                    <h3>Active Recall 🧠</h3>
-                    <p>Test yourself instead of just reading – it improves memory.</p>
-                </div>
-                <div class="tip-card">
-                    <h3>Mind Mapping 🗺️</h3>
-                    <p>Visualize concepts and make connections easily.</p>
-                </div>
-            </div>
         </section>
+        <section class="study-group">
+            <h2>Join Our Study Group</h2>
+            <form id="myForm" aria-describedby="form-description">
+                <p id="form-description">Please fill out the form below. All fields are required.</p>
+
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" required aria-required="true">
+
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required aria-required="true">
+
+                <button type="submit">Join Group</button>
+            </form>
+        </section>
+        <div id="success-message" role="status" aria-live="polite">
+            Thank you! Your form has been submitted.
+        </div>
     </main>
     <footer>
         <p>&copy; 2025 BYU Remote Learning Hub</p>

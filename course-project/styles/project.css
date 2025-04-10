@@ -145,7 +145,7 @@ body.dark-mode #testimonials {
     padding: 10px;
     margin: 5px;
     font-size: 1rem;
-    background-color: var(--accent-color);
+    background-color: #381212;
     color: #fff;
     border: none;
     border-radius: 5px;
@@ -157,6 +157,7 @@ body.dark-mode #testimonials {
     cursor: pointer;
     transform: scale(1.1);
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    background-color: #672e2e;
 }
 
 footer {
@@ -233,4 +234,75 @@ body.dark-mode .study-tips a {
 
 .tip-card p {
     font-family: var(--secondary-font);
+}
+
+.study-group {
+    padding: 20px;
+    background-color: rgb(177, 174, 174);
+}
+
+.study-group h2 {
+    font-family: var(--main-font);
+    padding: 10px 0;
+    font-size: 1.8rem;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+body.dark-mode .study-group h2 {
+    color: #000;
+}
+
+form {
+    font-family: var(--secondary-font);
+    display: flex;
+    flex-direction: column;
+}
+
+form label {
+    text-align: center;
+    padding-top: 20px;
+    font-size: 1.2rem;
+}
+
+input {
+    padding: 20px;
+    width: 24rem;
+    margin: 0 auto;
+    font-size: 1.2rem;
+}
+
+input[type="email"] {
+    margin-bottom: 20px;
+}
+
+form button {
+    width: 20rem;
+    margin: 0 auto;
+    padding: 10px;
+    border-radius: 15px 300px;
+    border: none;
+    font-family: var(--main-font);
+    font-size: 1.2rem;
+    background-color: #381212;
+    color: #fff;
+}
+
+body.dark-mode form {
+    color: #000;
+}
+
+form button:hover {
+    background-color: #672e2e;
+    color: #fff;
+    cursor: pointer;
+    transform: scaleX(1);
+}
+
+#success-message {
+    color: green;
+    margin-top: 20px;
+    display: none;
+    font-family: var(--secondary-font);
+    padding: 10px;
 }
