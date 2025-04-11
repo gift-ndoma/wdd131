@@ -306,3 +306,61 @@ form button:hover {
     font-family: var(--secondary-font);
     padding: 10px;
 }
+
+/* resources.html page */
+
+#study-materials, #student-wellness {
+    padding: 20px;
+    border: 1px dotted #000;
+    margin: 10px;
+}
+
+#study-materials h2, #campus-resources h2, 
+#student-wellness h2, #financial-resources h2 {
+    font-family: var(--main-font);
+    padding: 10px 0;
+    font-size: 1.8rem;
+    color: #002E5D;
+}
+
+#study-materials p, #campus-resources p, 
+#student-wellness p, #financial-resources p{
+    font-family: var(--secondary-font);
+    font-size: 1.2rem;
+    padding: 0 0 10px;
+}
+
+#study-materials li, #campus-resources li, 
+#student-wellness li, #financial-resources li {
+    list-style-position: inside;
+    font-family: var(--primary-font);
+    padding: 5px;
+}
+
+#study-materials a, #student-wellness a {
+    text-decoration: none;
+}
+
+#campus-resources, #financial-resources {
+    padding: 20px;
+    border: 1px dotted #000;
+    margin: 10px;
+    background-color: #381212;
+    color: whitesmoke;
+    border-radius: 5px;
+}
+
+#campus-resources h2, #financial-resources h2 {
+    color: rgb(72, 255, 0)
+}
+
+#campus-resources a, #financial-resources a {
+    text-decoration: none;
+    color: rgb(72, 255, 0);
+    font-size: 1.2rem;
+    transform-origin: center;
+}
+
+
+
+
